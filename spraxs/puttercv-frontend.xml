@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/Spraxs/docker-templates/master/spraxs/puttercv-frontend.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Web:Client</Category>
+  <Name>puttercv-frontend</Name>
+  <Description>
+	[b]Description[/b][br]
+    Frontend of PutterCV
+  </Description>
+  <Overview>
+    Web client of PutterCV
+  </Overview>
+  <Registry>localhost:5000/puttercv-frontend/</Registry>
+  <Repository>puttercv-frontend</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8085</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <WebUI>http://[IP]:[PORT:8085]/</WebUI>
+  <Banner></Banner>
+  <!-- <Icon>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/nginx-icon.png</Icon> -->
+  <ExtraParams></ExtraParams>
+</Containers>
