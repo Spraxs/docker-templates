@@ -26,6 +26,13 @@
       </Port>
     </Publish>
   </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/nexus3</HostDir>
+      <ContainerDir>/nexus-data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
   <WebUI>http://[IP]:[PORT:8081]/</WebUI>
   <Banner></Banner>
   <ExtraParams></ExtraParams>
