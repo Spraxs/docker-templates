@@ -27,6 +27,5 @@
   </Networking>
   <WebUI>http://[IP]:[PORT:8085]/</WebUI>
   <Banner></Banner>
-  <!-- <Icon>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/nginx-icon.png</Icon> -->
   <ExtraParams></ExtraParams>
 </Containers>
