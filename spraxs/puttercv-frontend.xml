@@ -12,7 +12,7 @@
     Web client of PutterCV
   </Overview>
   <Registry>http://localhost:5000/</Registry>
-  <Repository>puttercv-frontend</Repository>
+  <Repository>localhost:5000/puttercv-frontend</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
