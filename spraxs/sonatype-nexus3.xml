@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/Spraxs/docker-templates/master/spraxs/sonatype-nexus3.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Maven:Nexus</Category>
+  <Name>sonatype/nexus3</Name>
+  <Description>
+	[b]Description[/b][br]
+    A Dockerfile for Sonatype Nexus Repository Manager 3, starting with 3.18 the image is based on the Red Hat Universal Base Image while earlier versions used CentOS.
+  </Description>
+  <Overview>
+    A Dockerfile for Sonatype Nexus Repository Manager 3, starting with 3.18 the image is based on the Red Hat Universal Base Image while earlier versions used CentOS.
+  </Overview>
+  <Registry>https://hub.docker.com/r/sonatype/nexus3</Registry>
+  <GitHub>https://github.com/sonatype/docker-nexus3</GitHub>
+  <Repository>sonatype/nexus3</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8081</HostPort>
+        <ContainerPort>8081</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <WebUI>http://[IP]:[PORT:8081]/</WebUI>
+  <Banner></Banner>
+  <ExtraParams></ExtraParams>
+</Containers>
